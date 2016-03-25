@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(void){
-  int n, i, sum;
+  int n, sum;
 
   do {
     printf("正の整数を入力してください:"); scanf("%d", &n);
