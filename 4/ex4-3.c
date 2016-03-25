@@ -11,8 +11,8 @@ int main(void){
   printf("%d は", n);
   i = 0;
   do {
-    i++;
-    n = n/ 10;
+    i = i + 1;
+    n = n / 10;
   } while (0 < n);
 
   printf(" %d桁です。\n", i);
