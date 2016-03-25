@@ -11,7 +11,7 @@ int main(void){
     printf("夏です。\n");
   }else if(9 <= month && month <= 11){
     printf("秋です。\n");
-  }else{
+  }else if(month == 12 || month == 1 || month == 2){
     printf("冬です。\n");
   }
 
