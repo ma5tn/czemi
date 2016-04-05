@@ -4,9 +4,11 @@ int main(void){
   int n, i;
 
   printf("正の整数を入力してください:"); scanf("%d", &n);
-  for(i = 1; i <= n; i++){
+  i = 1;
+  while(i <= n){
     printf("%d ", i);
-    if(i == n) printf("\n");
+    i++;
+    if(i == n + 1) printf("\n");
   }
 
   return 0;
