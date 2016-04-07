@@ -3,7 +3,6 @@
 int main(void){
   int i, tmp;
   int va[7] = {1, 2, 3, 4, 5, 6, 7};
-  int vb[7];
 
   printf("va : ");
   for ( i = 0; i < 7; i++) {
